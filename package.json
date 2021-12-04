@@ -1,0 +1,43 @@
+{
+  "name": "yatlib",
+  "version": "0.0.1",
+  "author": "francois_levasseur@hotmail.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin.js",
+    "prettier": "cross-env prettier --check './src/**/*.ts' '!**/*.d.ts'",
+    "prettier:fix": "cross-env prettier --write './src/**/*.ts' '!**/*.d.ts'",
+    "eslint": "cross-env eslint src/ --ext .ts",
+    "eslint:fix": "cross-env eslint --fix src/ --ext .ts"
+  },
+  "dependencies": {
+    "async-exit-hook": "^2.0.1",
+    "chalk": "^4.1.2",
+    "globrex": "^0.1.2",
+    "knex": "^0.20.1",
+    "lodash": "^4.17.19",
+    "moment": "^2.29.1",
+    "yargs": "^17.2.1",
+    "yn": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/async-exit-hook": "^2.0.0",
+    "@types/globrex": "^0.1.1",
+    "@types/lodash": "^4.14.116",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^16.11.10",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.25.0",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^32.3.2",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.2"
+  },
+  "types": "./src/typings.d.ts",
+  "main": "./dist/index.js",
+  "bin": "./bin.js"
+}
