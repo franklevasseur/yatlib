@@ -19,9 +19,7 @@ Because I believe, deep down in my heart, that Jest terribly sucks and is direct
 - Prefers coding than browsing Stack Overflow
 - Doesn't mind importing the dependencies it uses
 
-Basically,
-
-YATLIB does **less** than Jest.
+Basically, YATLIB does **less** than Jest.
 
 ## Installation
 

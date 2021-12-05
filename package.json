@@ -18,7 +18,7 @@
     "knex": "^0.20.1",
     "lodash": "^4.17.19",
     "moment": "^2.29.1",
-    "yargs": "^17.2.1",
+    "yargs": "^17.3.0",
     "yn": "^4.0.0"
   },
   "devDependencies": {
@@ -27,10 +27,11 @@
     "@types/lodash": "^4.14.116",
     "@types/moment": "^2.13.0",
     "@types/node": "^16.11.10",
-    "cross-env": "^7.0.3",
-    "eslint": "^7.25.0",
+    "@types/yargs": "^17.0.7",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.25.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsdoc": "^32.3.2",
