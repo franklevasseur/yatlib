@@ -23,7 +23,7 @@ Basically, YATLIB does **less** than Jest.
 
 ## Installation
 
-YATLIB is not yet hosted on npm, but will be in a very short time. When this is done, you'll be able to install YATLIB like you would typically do for any node package:
+Install YATLIB like you would typically do for any node package:
 
 ```bash
 npm i --save-dev yatlib
