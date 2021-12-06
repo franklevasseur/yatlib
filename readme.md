@@ -1,6 +1,8 @@
 # YATLIB
 
-**Stands for Yet Another Test Lib**
+**Yet Another Test Lib**
+
+<img src="./yatlib.png"/>
 
 ## Why ?
 
