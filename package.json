@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "author": "francois_levasseur@hotmail.com",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/franklevasseur/yatlib.git"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node ./bin.js",
